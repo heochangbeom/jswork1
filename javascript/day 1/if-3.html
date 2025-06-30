@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //홀짝 게임 0:짝, 1:홀
+
+        let com;   //컴퓨터가 만든 수
+        let me;    //내가 입력하는 수
+
+        //1 ~ 10 사이의 난수
+        com = Math.floor(Math.random() * 10) + 1;
+
+        while (true) {
+            //숫자 입력
+            me = prompt();
+
+            //결과출력
+            if (me > com) {
+                alert('크다')
+            } else if (me < com) {
+                alert('wkrek    ')
+            } else {
+                alert('같다')
+                break;
+            }
+        }
+
+        // let a = prompt("점수입력");
+
+        // if (a >= 90) {
+        //     alert(a + " 는 A등급입니다");
+        // } else if (a >= 80) {
+        //     alert(a + " 는 B등급입니다");
+
+        // } else if (a >= 70) {
+        //     alert(a + " 는 C등급입니다");
+        // } else alert(" 는 F등급입니다");
+    </script>
+</body>
+
+</html>
