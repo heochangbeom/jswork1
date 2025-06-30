@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap');
+#container{
+            width: 1000px;
+            margin: 0 auto;
+        }
+        header{
+            background-color: beige;
+        }
+        nav li{
+            display: inline-block;
+            padding: 5px 10px 5px 5px;
+            margin: 10px 0px;
+            border-bottom: 3px solid #ccc;
+            border-radius: 10px;
+        }
+        nav li:hover{
+            border-color: #f00;
+        }
+        a{
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: #000;
+        }
+        section{
+            background-color: #ddd;
+            padding: 10px;
+        }
+        section li{
+            display: inline-block;
+            padding: 10px;
+            margin: 10px;
+            margin: center;
+        }
+        section ul{
+            text-align: center;
+            padding: 0px;
+        }
+        article{
+            border: 1px solid #aaa;
+            padding: 16px;
+            background-color:rgb(0,0,0,0.1);
+            font-family: "Noto Serif KR", serif;
+            border-radius: 20px;
+            margin-top: 1px;
+            opacity: 0.5;
+        }
+        img:hover{
+            opacity: 1;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        aside{
+            background-color: rgb(215, 243, 215);
+            padding: 10px;
+        }
+        aside li{
+            line-height: 1.5;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        footer p{
+            margin-top: 0;
+        }
+        .fixed{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: #ccc;
+            text-align: center;
+            line-height: 70px;
+            position: fixed;
+            bottom: 30px;
+            right: 50px;
+        }
+        .fixed p{
+            margin: 0;
+        }
+        /* .hid:hover{ */
+            /* opacity: 1; */
+        /* } */
+        .hid{
+            /* visibility: hidden;  */
+            display: none;
+            opacity: 0;
+        }

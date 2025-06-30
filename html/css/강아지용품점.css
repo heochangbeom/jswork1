@@ -1,0 +1,74 @@
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
+header{
+    /* background-color: pink; */
+    background: linear-gradient(45deg#00f, #fff 20%, #00f 50%#f0f 50%);
+    overflow: hidden;
+}
+header img{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+nav{
+    width: 600px;
+    float: right;
+}
+nav li{
+    float: left;
+    list-style: none;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+section{
+    width: 800px;
+    float: left;
+}
+article{
+    width: 180px;
+    float: right;
+    border: 1px solid #ccc;
+    margin: 
+    float: left;
+}
+article p{
+    text-align: justify;
+}
+aside img{
+    width: 100%;
+    float: right; 
+    margin-top: 80.2;
+    height: 183px;
+}
+footer{
+    clear: both;
+    /* background-color: blue; */
+    background: repeating-linear-gradient(90deg, #00f, #00f 5%, #f0f 5%, #f0f 10%);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.gradiant{
+    /* background: radial-gradient(circle closest-side at 30% 50%, #ff0, #0f0) */
+    background: repeating-radial-gradient(circle closest-side at 50% 50%, #fff, #fff 10%, pink 10%, pink 20%)
+}
+footer p{
+    margin-top: 0;
+}
+.bg{
+    background-position: left ;
+    background: url(../img/레드향.jpg) no-repeat center;
+    background-size: cover;
+    text-align: left 10px;
+}
+section h1{
+    background: url(../img/강아지2.jpg) no-repeat center left;
+    background-size: 25px 25px;
+    padding-left: 30px
+}

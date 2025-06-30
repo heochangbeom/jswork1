@@ -1,0 +1,58 @@
+.container{
+    /* border: 1px solid #ccc; */
+    width: 650px;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+header h1{
+    margin: 0px;
+}
+.kanpei{
+    background-color: antiquewhite;
+    border: 1px solid #ccc;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 30px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.레시피단락{
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 330px;
+    padding-top: 0;
+    padding-left: 10px;
+}
+header img{
+    margin: 0px;
+    height: 200px;
+    padding-right: 30px;
+    margin: 0px;
+    float: left;
+}
+.레시피단락 img{
+    box-sizing: padding-box;
+    height: 130px;
+    float: right;
+}
+.유튜브삽입{
+    margin-bottom: 20px;
+}
+.상품구성표{
+    border: 1px solid #ccc;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.상품구성표 thead{
+    background-color: rgb(101, 179, 101);
+}
+.표첫번째색{
+    background-color: #ccc;
+}
+table{
+    margin: 0 20px auto;
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+}
